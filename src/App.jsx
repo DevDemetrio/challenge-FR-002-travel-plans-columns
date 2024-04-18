@@ -26,7 +26,7 @@ function App() {
       <Cards 
             cardColor={"#004241"} 
             titulo={'Delux'}
-            texto={"Desfrute da elegância e do conforto incomparáveis do nosso pacote  Deluxe. Uma experiência de viagem que redefine o luxo e a sofisticação"}/>
+            texto={"Desfrute da elegância e do conforto incomparáveis do nosso pacote Deluxe. Uma experiência de viagem que redefine o luxo."}/>
     </MainContainer>
   )
 }

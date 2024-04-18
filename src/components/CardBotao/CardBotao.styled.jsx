@@ -1,14 +1,15 @@
 import styled from "styled-components";
 
 export const CadBotao = styled.button`
-  width: 120px;
-  height: 37px;
-  margin-top: 40px;
+  width: 159px;
+  height: 49px;
+  margin-top: 69px;
   border-radius: 30px;
   border: 1px solid #FFFFFF;
   background: none;
 
-  color: #FFFFFF;
+  font-size: 18px;
   font-weight: 600;
+  color: #FFFFFF;
   cursor: pointer;
 `

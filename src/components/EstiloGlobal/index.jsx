@@ -12,7 +12,7 @@ body{
   }
 
   /* Reset styles for specific elements */
-  div, header, body, h1, button {
+  div, header, body, h1, button, p, img, article {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
