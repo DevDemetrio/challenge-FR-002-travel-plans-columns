@@ -1,4 +1,4 @@
-import Cards from "./components/Cards/Card"
+import Card from "./components/Card"
 import styled from "styled-components";
 import colors from "./colors";
 
@@ -16,19 +16,19 @@ function App() {
 
   return (
     <MainContainer>
-      <Cards 
+      <Card 
             colorPrimary={colors.colorPrimaryOne}
             colorSecundary={colors.colorSecondaryOne}
             colorDetail={colors.colorDetailOne}
             titulo={'Econômico'}
             texto={"Descubra o melhor custo-benefício com nosso Plano Econômico. Uma opção acessível para viagens incríveis"}/>
-      <Cards 
+      <Card 
             colorPrimary={colors.colorPrimaryTwo}
             colorSecundary={colors.colorSecondaryTwo}
             colorDetail={colors.colorDetailTwo}
             titulo={'Padrão'}
             texto={"Explore o luxo em cada detalhe com nosso Plano Padrão. Uma experiência refinada que cabe no seu orçamento."}/>
-      <Cards 
+      <Card 
             colorPrimary={colors.colorPrimaryThree}
             colorSecundary={colors.colorSecondaryThree}
             colorDetail={colors.colorDetailThree} 

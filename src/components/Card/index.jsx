@@ -2,11 +2,11 @@ import Benefit from "../Benefit"
 import CardBotao from "../CardBotao/CardBotao"
 import CardTexto from "../CardTexto/CardTexto"
 import CardTitulo from "../CardTitulo/CardTitulo"
-import { Article, TextButtoContainer, TitleIcon } from "./Card.styled"
-import { AviaoImg } from "./Imagen.styled"
+import { Article, TextButtoContainer, TitleIcon, AviaoImg } from "./styled"
 
 
-const Cards = ({colorPrimary, colorSecundary, colorDetail ,titulo, texto}) =>{
+
+const Card = ({colorPrimary, colorSecundary, colorDetail ,titulo, texto}) =>{
 
 
   return(
@@ -25,4 +25,4 @@ const Cards = ({colorPrimary, colorSecundary, colorDetail ,titulo, texto}) =>{
   )
 }
 
-export default Cards
+export default Card
