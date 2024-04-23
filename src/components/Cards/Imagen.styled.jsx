@@ -6,6 +6,7 @@ export const AviaoImg = styled.div`
   width: 48px;
   height: 47px;
   margin: 27px 0 8px 0;
+  background-color: aqua;
   background-image: url(${AvImagen});
   background-repeat: no-repeat;
 `

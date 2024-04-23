@@ -12,12 +12,13 @@ body{
   }
 
   /* Reset styles for specific elements */
-  div, header, body, h1, button, p, img, article {
+  div, header, body, h1, button, p, img, article, ul, li {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
 
+ 
 
 `;
 

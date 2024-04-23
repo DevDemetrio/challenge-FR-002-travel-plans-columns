@@ -6,20 +6,19 @@ export const Article = styled.article`
   align-items: center;
   width: 22.18rem;
   height: 35rem;
-  padding: 27px 22px 20px 20px;
+  padding: 1.6rem 1.3rem 1.2rem 1.2rem;
   border-radius: 5px;
-  background-color: ${(props) => props.cardColor};
+  background-color: ${(props) => props.colorPrimary};
 ` 
 
 export const TitleIcon = styled.div`
  width: 19.56rem;
- margin-bottom: 53px;
+ margin-bottom: 1.562rem;
 `
 
 export const TextButtoContainer = styled.div`
   width: 19.56rem;
   height: 21.68rem;
-  padding: 30px 27px 51px 22px;
-  background-color: #D77C1A;
-
+  padding: 1.8rem 1.6rem 3.18rem 1.3rem;
+  background-color: ${(props) => props.colorSecundary};
 `

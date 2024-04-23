@@ -1,0 +1,28 @@
+{
+  "categorias": [
+    {
+      "nome": "Econômico",
+      "caracteristicas": [
+        "Check-in Flexivel",
+        "Atendimento personalizado",
+        "Exclusividade de conforto"
+      ]
+    },
+    {
+      "nome": "Padrão",
+      "caracteristicas": [
+        "Flexibilidade de pagamento",
+        "Acomodações acessíveis",
+        "Detalhes sofisticados"
+      ]
+    },
+    {
+      "nome": "Delux",
+      "caracteristicas": [
+        "Vantagens acessíveis",
+        "Oportunidades econômicas",
+        "Experiência acessíveis"
+      ]
+    }
+  ]
+}
