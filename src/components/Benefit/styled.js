@@ -1,17 +1,17 @@
 import styled from "styled-components";
 
 export const BenefitContainer = styled.div`
-      padding: 20px 0 0 38px;
-      
+      padding: 2.5rem 0 0 2.3rem;
+   
 `
 
 export const BenefitListContainer = styled.ul`
      list-style: none;
-     font-size: 17px;
+     font-size: 1.06rem;
      color: #FFFFFF;
 
      li:nth-child(even){
-      margin: 7px 0;
+      margin: 0.437rem 0;
      }
      
       li:before{

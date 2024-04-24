@@ -1,8 +1,7 @@
 import Benefit from "../Benefit"
 import { Button } from "../Button"
-
-import CardTexto from "../CardTexto/CardTexto"
-import CardTitulo from "../CardTitulo/CardTitulo"
+import { Text } from "../Texto/Text"
+import { Title } from "../Title"
 import { Article, TextButtoContainer, TitleIcon, AviaoImg } from "./styled"
 
 
@@ -14,10 +13,14 @@ const Card = ({colorPrimary, colorSecundary, colorDetail ,titulo, texto}) =>{
     <Article colorPrimary={colorPrimary}>
         <TitleIcon>
           <AviaoImg />
-          <CardTitulo titulo={titulo}/>
+          <Title>
+            {titulo}
+          </Title>
         </TitleIcon>
         <TextButtoContainer colorSecundary={colorSecundary}>
-          <CardTexto texto={texto}/>
+          <Text>
+            {texto}
+          </Text>
           <Benefit title={titulo} colorDetail={colorDetail}/>
           <Button>
             Compre agora

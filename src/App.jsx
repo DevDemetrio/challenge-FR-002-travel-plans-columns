@@ -17,21 +17,21 @@ function App() {
   return (
     <MainContainer>
       <Card 
-            colorPrimary={colors.colorPrimaryOne}
-            colorSecundary={colors.colorSecondaryOne}
-            colorDetail={colors.colorDetailOne}
+            colorPrimary={colors.$colorPrimaryOne}
+            colorSecundary={colors.$colorSecondaryOne}
+            colorDetail={colors.$colorDetailOne}
             titulo={'Econômico'}
             texto={"Descubra o melhor custo-benefício com nosso Plano Econômico. Uma opção acessível para viagens incríveis"}/>
       <Card 
-            colorPrimary={colors.colorPrimaryTwo}
-            colorSecundary={colors.colorSecondaryTwo}
-            colorDetail={colors.colorDetailTwo}
+            colorPrimary={colors.$colorPrimaryTwo}
+            colorSecundary={colors.$colorSecondaryTwo}
+            colorDetail={colors.$colorDetailTwo}
             titulo={'Padrão'}
             texto={"Explore o luxo em cada detalhe com nosso Plano Padrão. Uma experiência refinada que cabe no seu orçamento."}/>
       <Card 
-            colorPrimary={colors.colorPrimaryThree}
-            colorSecundary={colors.colorSecondaryThree}
-            colorDetail={colors.colorDetailThree} 
+            colorPrimary={colors.$colorPrimaryThree}
+            colorSecundary={colors.$colorSecondaryThree}
+            colorDetail={colors.$colorDetailThree} 
             titulo={'Delux'}
             texto={"Desfrute da elegância e do conforto incomparáveis do nosso pacote Deluxe. Uma experiência de viagem que redefine o luxo."}/>
 

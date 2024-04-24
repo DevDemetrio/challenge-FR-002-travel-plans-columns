@@ -15,11 +15,14 @@ export const Article = styled.article`
 export const TitleIcon = styled.div`
  width: 19.56rem;
  margin-bottom: 1.562rem;
+ display: flex;
+ align-items: center;
+ 
 `
 
 export const TextButtoContainer = styled.div`
   width: 19.56rem;
-  height: 21.68rem;
+  height: 25.75rem;
   padding: 1.8rem 1.6rem 3.18rem 1.3rem;
   background-color: ${(props) => props.colorSecundary};
 `
@@ -27,9 +30,8 @@ export const TextButtoContainer = styled.div`
 export const AviaoImg = styled.div`
   display: block;
   width: 48px;
-  height: 47px;
+  height: 33px;
   margin: 27px 0 8px 0;
-  background-color: aqua;
   background-image: url(${AvImagen});
   background-repeat: no-repeat;
 `
