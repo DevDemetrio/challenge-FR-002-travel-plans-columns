@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const CadBotao = styled.button`
+export const Button = styled.button`
   width: 159px;
   height: 49px;
   margin-top: 25px;
@@ -12,4 +12,14 @@ export const CadBotao = styled.button`
   font-weight: 600;
   color: #FFFFFF;
   cursor: pointer;
+  transition: .5s;
+
+  &:hover{
+    font-size: 19px;
+  }
+
+  &:active{
+    background-color: #DBDBDB;
+    transition: none;
+  }
 `
