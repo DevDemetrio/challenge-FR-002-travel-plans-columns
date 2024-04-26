@@ -7,8 +7,16 @@ export const BenefitContainer = styled.div`
 
 export const BenefitListContainer = styled.ul`
      list-style: none;
-     font-size: 1.06rem;
+     font-size: 0.75rem;
      color: #FFFFFF;
+
+     @media (min-width: 600px){
+        font-size: 17px;
+
+         li:nth-child(even){
+            margin: 7px 0;
+         }
+      }
 
      li:nth-child(even){
       margin: 0.437rem 0;

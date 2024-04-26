@@ -5,26 +5,44 @@ export const Article = styled.article`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 22.18rem;
-  height: 35rem;
-  padding: 1.6rem 1.3rem 1.2rem 1.2rem;
+  width: 16.81rem;
+  height: 26.56rem;
+  padding: 10px 15px 12px 15px;
   border-radius: 5px;
   background-color: ${(props) => props.colorPrimary};
+
+  @media (min-width: 600px){
+    width: 22.18rem;
+    height: 35rem;
+    padding: 1.6rem 1.3rem 1.2rem 1.2rem;
+  }
+
 ` 
 
 export const TitleIcon = styled.div`
- width: 19.56rem;
- margin-bottom: 1.562rem;
+ width: 14.81rem;
+ margin-bottom: 1rem;
  display: flex;
  align-items: center;
+
+ @media (min-width: 600px){
+    width: 19.56rem;
+    margin-bottom: 1.562rem;
+  }
  
 `
 
 export const TextButtoContainer = styled.div`
-  width: 19.56rem;
-  height: 25.75rem;
-  padding: 1.8rem 1.6rem 3.18rem 1.3rem;
+  width: 14.81rem;
+  height: 19.68rem;
+  padding: 1.5rem 1rem 3.18rem 1rem;
   background-color: ${(props) => props.colorSecundary};
+
+  @media (min-width: 600px){
+    width: 19.56rem;
+    height: 26.25rem;
+    padding: 1.8rem 1.6rem 3.18rem 1.3rem;
+  }
 `
 
 export const AviaoImg = styled.div`
